@@ -1,0 +1,22 @@
+body {
+	background-color: black;
+	font-family: arial
+}
+
+button {
+	font-family: arial;
+	font-size: 50px;
+	color: green;
+	text-align: center;
+	background-color: purple;
+	padding: 100px;
+	border: solid; 
+	border-radius: 100%;
+	border-color: gray;
+	margin: 100px;
+}
+
+h1 {
+	color: lime;
+	text-align: center
+}

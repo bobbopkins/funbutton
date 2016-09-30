@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+
+	<center>
+		<a target="_blank">
+			<button onclick= "endless('www.google.com')">
+				FUN!!!
+			</button>
+		</a>
+	</center>
+
+	<h1>
+		Click the Fun Button above!
+	</h1>
+
+	<script type="text/javascript"> 
+		function endless(url) {
+		var win = window.open(url,'_blank');
+		win.focus();
+		endless('www.google.com');
+		}
+	</script>
+
+</body>
+</html>
